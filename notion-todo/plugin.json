@@ -1,6 +1,6 @@
 {
 	"logo": "logo.png",
-  "preload":"preload.js",
+  "preload":"./src/preload.js",
 	"features": [
 		{
 		  "code": "notion",
