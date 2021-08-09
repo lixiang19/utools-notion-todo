@@ -1,0 +1,16 @@
+{
+	"logo": "logo.png",
+
+	"preload": "preload.js",
+
+	"features": [
+		{
+			"code": "notion",
+			"explain": "添加notion燃烧日程",
+			"cmds": [
+				"notion",
+				"燃烧日程"
+			]
+		}
+	]
+}
