@@ -1,20 +1,22 @@
 <template>
   <div id="nav">
-    {{a}}
-    {{res}}
+    这是主页面
+    <router-view></router-view>
   </div>
   <router-view/>
 </template>
 
 <script setup>
-import { ref, reactive, onMounted } from 'vue'
-import notion from './api/notion'
-const a = ref(1)
-let res = reactive({})
-
-onMounted(() => {
-  res = notion.getList()
-})
+// import { onMounted } from 'vue'
+// import { useRouter } from 'vue-router'
+// console.log('🚀 ~ file: App.vue ~ line 11 ~ useRouter', useRouter)
+// const router = useRouter()
+// console.log(router)
+// onMounted(() => {
+//   setTimeout(() => {
+//     router.push('/Todo')
+//   }, 2000)
+// })
 </script>
 
 <style lang="scss">

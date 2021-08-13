@@ -1,0 +1,16 @@
+Location {
+  ancestorOrigins: [Getter],
+  href: [Getter/Setter],
+  origin: [Getter],
+  protocol: [Getter/Setter],
+  host: [Getter/Setter],
+  hostname: [Getter/Setter],
+  port: [Getter/Setter],
+  pathname: [Getter/Setter],
+  search: [Getter/Setter],
+  hash: [Getter/Setter],
+  assign: [Function: assign],
+  reload: [Function: reload],
+  replace: [Function: replace],
+  toString: [Function: toString]
+}

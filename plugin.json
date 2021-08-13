@@ -1,15 +1,29 @@
 {
 	"logo": "logo.png",
-
+	"main": "index.html",
 	"preload": "preload.js",
-
+	"development": {
+		"main": "http://localhost:8080/#/index.html"
+	},
 	"features": [
 		{
-			"code": "notion",
+			"code": "n-todo",
 			"explain": "添加notion燃烧日程",
 			"cmds": [
-				"notion",
+				"todo",
+				"待办",
+				"nt",
 				"燃烧日程"
+			]
+		},
+		{
+			"code": "n-setting",
+			"explain": "配置notion",
+			"cmds": [
+				"设置",
+				"notion设置",
+				"notionSetting",
+				"ns"
 			]
 		}
 	]

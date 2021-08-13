@@ -1,12 +1,11 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
-
+import Todo from '../pages/Todo.vue'
 const routes = [
-  // {
-  //   path: '/',
-  //   name: 'Home',
-  //   component: Home
-  // },
-
+  {
+    path: '/Todo',
+    name: 'Todo',
+    component: Todo
+  }
 ]
 
 const router = createRouter({

@@ -46,7 +46,7 @@
     },
     "globals": {
       "utools": "readonly",
-      "path":"readonly",
+      "path": "readonly",
       "util": "readonly",
       "log": "readonly"
     },
